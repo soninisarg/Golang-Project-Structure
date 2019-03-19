@@ -1,46 +1,46 @@
 # Go Project Structure
 This is a sample structure for Go projects which provides versioning for REST APIs.
 
-##Directories
+## Directories
 
-###1. apiHelpers
+### 1. apiHelpers
 Basically contains the helper functions used in returning api responses, HTTP status codes, default messages etc.
 
-###2. controllers
+### 2. controllers
 Contains handler functions for particular route to be called when an api is called.
 
-###3. helpers
+### 3. helpers
 Contains helper functions used in all apis
 
-###4. middlewares
+### 4. middlewares
 Middleware to be used for the project
 
-###5. models
+### 5. models
 Database tables to be used as models struct
 
-###6. Resources
+### 6. Resources
 Resources contains all structures other than models which can be used as responses
 
-###7. Routers
+### 7. Routers
 Resources define the routes for your project
 
-###8. Seeder
+### 8. Seeder
 It is optional, but if you want to insert lots of dummy records in your database, then you can use seeder.
 
-###9. Services
+### 9. Services
 All the core apis for your projects should be within services.
 
-###10. Storage
+### 10. Storage
 It is generally for storage purpose.
 
-###11. Templates
+### 11. Templates
 Contains the HTML templates used in your project
 
-###12. .env
+### 12. .env
 Contains environment variables.
 
 
-##STRUCTURE
+## STRUCTURE
 
 Project
 |-----apihelpers
@@ -68,12 +68,12 @@ Project
 |___.gitignore
 
 
-##Pre-requirements before starting your first go projects
+## Pre-requirements before starting your first go projects
 
 . Install latest version of go i.e 1.12 (Released in Feb 2019)
 . Setup GOROOT and GOPATH
 
-##RUN THE SERVER (Basic commands)
+## RUN THE SERVER (Basic commands)
 
 . For running the server you have to run following command
         go run main.go
@@ -86,10 +86,10 @@ Project
         go build
         
        
-##API with versioning
+## API with versioning
 
-#For using version 1 api
+# For using version 1 api
 ```127.0.0.1:8099/api/v1/user-list```
 
-#For using version 2 api
-```127.0.0.1:8099/api/v2/user-list```# Golang-Project-Structure
+# For using version 2 api
+```127.0.0.1:8099/api/v2/user-list```
