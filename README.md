@@ -42,6 +42,7 @@ Contains environment variables.
 
 ## STRUCTURE
 
+```
 Project
 |-----apihelpers
 |-----controllers
@@ -66,7 +67,7 @@ Project
 |---.env
 |---main.go
 |___.gitignore
-
+```
 
 ## Pre-requirements before starting your first go projects
 
